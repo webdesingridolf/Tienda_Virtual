@@ -1,3 +1,6 @@
+<?php 
+headerAdmin();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -68,4 +71,10 @@
         </div>
       </div>
     </main>
+    <footer>
+    <?php
+    footerAdmin();
+    ?>
+    </footer>
+  
   

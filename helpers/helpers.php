@@ -46,5 +46,19 @@
  function media(){
     return BASE_URL."assets/";
  }
+ function headerAdmin(){
+    $viewHeader="Views/Template/Header_Admin.php";
+    require_once($viewHeader);
+
+ }
+ function footerAdmin(){
+   $viewFooter="Views/Template/Footer_Admin.php";
+   require_once($viewFooter);
+
+}
+function navAdmin($data=""){
+   $viewNav="Views/Template/Nav_Admin.php";
+   require_once($viewNav);
+}
 
 ?>
