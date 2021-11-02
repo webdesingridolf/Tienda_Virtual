@@ -4,9 +4,6 @@ headerAdmin();
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-  
-  
     <main class="app-content">
       <div class="app-title">
         <div>
@@ -71,10 +68,10 @@ headerAdmin();
         </div>
       </div>
     </main>
-    <footer>
+    
     <?php
     footerAdmin();
     ?>
-    </footer>
+   
   
   
