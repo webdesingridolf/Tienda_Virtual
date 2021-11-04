@@ -20,8 +20,8 @@
           </li>
           <!--Usuarios -->
           <li class="treeview">
-              <a class="app-menu__item" href="#" data-toggle="treeview">
-                  <i class="app-menu__icon fa fa-laptop"></i>
+              <a class="app-menu__item" href="<?= base_url() ?>usuarios" data-toggle="treeview">
+                  <i class="app-menu__icon fa fa-users" aria-hidden="true"></i>
                   <span class="app-menu__label">Usuarios</span>
                   <i class="treeview-indicator fa fa-angle-right"></i>
               </a>
@@ -53,16 +53,19 @@
                   </li>
               </ul>
           </li>
+          <!--Productos -->
 
           <li>
-              <a class="app-menu__item" href="docs.html">
-                  <i class="app-menu__icon fa fa-file-code-o"></i>
+              <a class="app-menu__item" href="<?= base_url() ?>productos">
+                  <i class="app-menu__icon fa fa-archive"></i>
                   <span class="app-menu__label">Productos</span>
               </a>
           </li>
+          <!--Clientes -->
+
           <li class="treeview">
-              <a class="app-menu__item" href="#" data-toggle="treeview">
-                  <i class="app-menu__icon fa fa-laptop"></i>
+              <a class="app-menu__item" href="<?= base_url() ?>clientes" data-toggle="treeview">
+                  <i class="app-menu__icon fa fa-user" aria-hidden="true"></i>
                   <span class="app-menu__label">Clientes</span>
                   <i class="treeview-indicator fa fa-angle-right"></i>
               </a>
@@ -75,19 +78,19 @@
                   </li>
 
                   <li>
-                      <a class="treeview-item" href="bootstrap-components.html">
+                      <a class="treeview-item" href="<?= base_url() ?>usuarios">
                           <i class="icon fa fa-circle-o"></i>
                           Usuarios
                       </a>
                   </li>
                   <li>
-                      <a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">
+                      <a class="treeview-item" href="<?= base_url() ?>roles" target="_blank" rel="noopener">
                           <i class="icon fa fa-circle-o"></i>
                           Roles
                       </a>
                   </li>
                   <li>
-                      <a class="treeview-item" href="ui-cards.html">
+                      <a class="treeview-item" href="<?= base_url() ?>permisos">
                           <i class="icon fa fa-circle-o"></i>
                           Permisos
                       </a>
@@ -96,8 +99,8 @@
           </li>
           <!--Pedidos-->
           <li class="treeview">
-              <a class="app-menu__item" href="#" data-toggle="treeview">
-                  <i class="app-menu__icon fa fa-laptop"></i>
+              <a class="app-menu__item" href="<?= base_url() ?>pedidos" data-toggle="treeview">
+                  <i class="app-menu__icon fa fa-shopping-cart"></i>
                   <span class="app-menu__label">Pedidos</span>
                   <i class="treeview-indicator fa fa-angle-right"></i>
               </a>
@@ -129,9 +132,11 @@
                   </li>
               </ul>
           </li>
+          <!--logout -->
+
           <li>
-              <a class="app-menu__item" href="docs.html">
-                  <i class="app-menu__icon fa fa-file-code-o"></i>
+              <a class="app-menu__item" href="<?= base_url() ?>logout">
+                  <i class="app-menu__icon fa fa-sign-out"></i>
                   <span class="app-menu__label">Logout</span>
               </a>
           </li>
