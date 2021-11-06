@@ -60,5 +60,9 @@ function navAdmin($data=""){
    $viewNav="Views/Template/Nav_Admin.php";
    require_once($viewNav);
 }
+function getModal($nameModal,$data){
+   $viewModal="Views/Template/Modals/{$nameModal}.php";
+   require_once($viewModal);
+}
 
 ?>

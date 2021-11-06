@@ -1,0 +1,6 @@
+codigos de colores
+#7AD7FA
+#5BE390
+#C8FA70
+#121007
+#F57B27
