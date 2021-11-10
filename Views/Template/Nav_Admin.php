@@ -71,7 +71,7 @@
               </a>
               <ul class="treeview-menu">
                   <li>
-                      <a class="treeview-item" href="widgets.html">
+                      <a class="treeview-item" href="<?= base_url() ?>clientes">
                           <i class="icon fa fa-circle-o"></i>
                           Nuevo usuario
                       </a>
