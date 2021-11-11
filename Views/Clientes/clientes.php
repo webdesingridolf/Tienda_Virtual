@@ -1,5 +1,6 @@
 <?php
 headerAdmin();
+footerAdmin();
 getModal('modalClientes', $data);
 ?>
  <main class="app-content">
@@ -17,15 +18,20 @@ getModal('modalClientes', $data);
       <div class="row">
       <div class="col-md-12">
           <div class="tile">
-            <h3 class="tile-title">Responsive Table</h3>
+            <h3 class="tile-title">Clientes</h3> 
+            <button class="btn btn-primary" type="button" onclick="openModal()">Nuevo Cliente</button>
             <div class="table-responsive">
               <table class="table">
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Username</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Email</th>
+                    <th>Telefono</th>
+                    <th>Rol</th>
+                    <th>Status</th>
+                    <th>Acciones</th>
                   </tr>
                 </thead>
                 <tbody>

@@ -26,12 +26,7 @@
                   <i class="treeview-indicator fa fa-angle-right"></i>
               </a>
               <ul class="treeview-menu">
-                  <li>
-                      <a class="treeview-item" href="widgets.html">
-                          <i class="icon fa fa-circle-o"></i>
-                          Nuevo usuario
-                      </a>
-                  </li>
+
 
                   <li>
                       <a class="treeview-item" href="bootstrap-components.html">
@@ -62,76 +57,22 @@
               </a>
           </li>
           <!--Clientes -->
-
-          <li class="treeview">
-              <a class="app-menu__item" href="<?= base_url() ?>clientes" data-toggle="treeview">
+          <li>
+              <a class="app-menu__item" href="<?= base_url() ?>clientes" >
                   <i class="app-menu__icon fa fa-user" aria-hidden="true"></i>
                   <span class="app-menu__label">Clientes</span>
-                  <i class="treeview-indicator fa fa-angle-right"></i>
               </a>
-              <ul class="treeview-menu">
-                  <li>
-                      <a class="treeview-item" href="<?= base_url() ?>clientes">
-                          <i class="icon fa fa-circle-o"></i>
-                          Nuevo usuario
-                      </a>
-                  </li>
-
-                  <li>
-                      <a class="treeview-item" href="<?= base_url() ?>usuarios">
-                          <i class="icon fa fa-circle-o"></i>
-                          Usuarios
-                      </a>
-                  </li>
-                  <li>
-                      <a class="treeview-item" href="<?= base_url() ?>roles" target="_blank" rel="noopener">
-                          <i class="icon fa fa-circle-o"></i>
-                          Roles
-                      </a>
-                  </li>
-                  <li>
-                      <a class="treeview-item" href="<?= base_url() ?>permisos">
-                          <i class="icon fa fa-circle-o"></i>
-                          Permisos
-                      </a>
-                  </li>
-              </ul>
           </li>
+
+
           <!--Pedidos-->
-          <li class="treeview">
-              <a class="app-menu__item" href="<?= base_url() ?>pedidos" data-toggle="treeview">
-                  <i class="app-menu__icon fa fa-shopping-cart"></i>
+          <li>
+              <a class="app-menu__item" href="<?= base_url() ?>pedidos" >
+              <i class="app-menu__icon fa fa-shopping-cart"></i>
                   <span class="app-menu__label">Pedidos</span>
-                  <i class="treeview-indicator fa fa-angle-right"></i>
               </a>
-              <ul class="treeview-menu">
-                  <li>
-                      <a class="treeview-item" href="widgets.html">
-                          <i class="icon fa fa-circle-o"></i>
-                          Nuevo usuario
-                      </a>
-                  </li>
-
-                  <li>
-                      <a class="treeview-item" href="bootstrap-components.html">
-                          <i class="icon fa fa-circle-o"></i>
-                          Usuarios
-                      </a>
-                  </li>
-                  <li>
-                      <a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank" rel="noopener">
-                          <i class="icon fa fa-circle-o"></i>
-                          Roles
-                      </a>
-                  </li>
-                  <li>
-                      <a class="treeview-item" href="ui-cards.html">
-                          <i class="icon fa fa-circle-o"></i>
-                          Permisos
-                      </a>
-                  </li>
-              </ul>
           </li>
+
           <!--logout -->
 
           <li>
