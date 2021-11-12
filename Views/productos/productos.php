@@ -1,3 +1,8 @@
+<?php
+headerAdmin();
+footerAdmin();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

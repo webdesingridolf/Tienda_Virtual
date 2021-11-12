@@ -64,5 +64,18 @@ function getModal($nameModal,$data){
    $viewModal="Views/Template/Modals/{$nameModal}.php";
    require_once($viewModal);
 }
+function footerTienda(){
+   $viewFooter="Views/Template/Footer_Tienda.php";
+   require_once($viewFooter);
+}
+function navTienda(){
+   $viewNav="Views/Template/Nav_Tienda.php";
+   require_once($viewNav);
+}
+function headerTienda(){
+   $viewHeader="Views/Template/Header_Tienda.php";
+   require_once($viewHeader);
+
+}
 
 ?>
