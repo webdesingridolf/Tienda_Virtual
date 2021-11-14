@@ -39,6 +39,8 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>Tienda/css/util.css">
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>Tienda/css/main.css">
+    <link rel="stylesheet" type="text/css" href="<?= media(); ?>css/style.css">
+
     <!--===============================================================================================-->
 
 

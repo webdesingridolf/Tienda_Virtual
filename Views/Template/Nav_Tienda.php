@@ -1,7 +1,7 @@
 <header class="header-v2">
 		<!-- Header desktop -->
 		<div class="container-menu-desktop trans-03">
-			<div class="wrap-menu-desktop">
+			<div class="wrap-menu-desktop nav-principal">
 				<nav class="limiter-menu-desktop p-l-45">
 					
 					<!-- Logo desktop -->		
@@ -18,13 +18,13 @@
 						</li>
 
 						<li class="label1" data-label1="hot">
-							<a href="product.html">Productos</a>
+							<a href="<?= base_url() ?>productosVista">Productos</a>
 						</li>
 
 						
 
 						
-						<li class="active-menu">
+						<li class="">
 							<a href="index.html">Servicio Tecnico</a>
 							<ul class="sub-menu">
 								<li><a href="index.html">Homepage 1</a></li>
@@ -60,7 +60,7 @@
 		</div>
 
 		<!-- Header Mobile -->
-		<div class="wrap-header-mobile">
+		<div class="wrap-header-mobile nav-principal">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
 				<a href="index.html"><img src="<?= media(); ?>img/sam.png" alt="IMG-LOGO"></a>
@@ -105,7 +105,7 @@
 						
 
 						
-						<li class="active-menu">
+						<li class="">
 							<a href="index.html">Servicio Tecnico</a>
 							<ul class="sub-menu">
 								<li><a href="index.html">Homepage 1</a></li>
